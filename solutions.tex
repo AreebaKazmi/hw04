@@ -116,7 +116,29 @@ You are given a set of 9 global challenges - to which you may add one more of yo
 
 
   \begin{solution}
-    To be added soon.
+    Suppose each problem is represented with an English letter. Call this set \\
+    $S = \{a, b, c, d, e, f, g, h, i, j\}.$
+    
+    \begin{parts}
+    \part $\mathcal{P} = (S,NB)$\\
+    	$NB = \{(a,b),(c,d),(e,f),(g,h),(i,j)\} \cup \{(x,x) | x \in S\}$
+    	
+    \part $\mathcal{P} = (S,NS)$\\
+    	$NS = \{(a,b),(a,c),(a,d),(a,e),(a,f),(a,g)\} \cup \{(x,x) | x \in S\}$
+    	
+    \part 
+    $\mathcal{P} = (S,NN)$\\
+    	$NN = \{(a,b),(a,c),(a,d),(a,e),(a,f),(a,g),(a,h),(a,i)\} \\ \cup \{(a,j),(b,j),(c,j),(d,j),(e,j),(f,j),(g,j),(h,j),(i,j)\} \\ \cup \{(x,x) | x \in S\}$
+    	
+    \part
+    $\mathcal{P} = (S,NB)$\\
+    The adjacency matrix of $NB$ contains 1's at the leading diagonal, and to the right of it, and 0 otherwise.
+    
+    \part
+    $\mathcal{P} = (S,NS)$\\
+    The adjacency matrix of $NS$ contains 1's at the leading diagonal, and to the right of it, and 0 otherwise.
+      	
+    \end{parts}
   \end{solution}
   
 \question 
