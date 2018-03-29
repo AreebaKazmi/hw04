@@ -151,9 +151,9 @@ Show that the set of strings of lowercase English letters with lexicographic ord
     
     Theorem: Let $ENG_l$ be the set of strings of lowercase English letters along with the lexicographic order relation $\preccurlyeq$. The poset $\mathcal{P} = (ENG_l,\preccurlyeq)$ is \textbf{neither well-founded, nor dense}.
     
-    Proof: $\mathcal{P}$ has a minimal element, namely the string \textit{a}. Therefore, all decreasing sequences of $\mathcal{P}$ are finite. 
+    Proof: The sequence $\cdots \prec aaab \prec aab \prec ab$ is infinitely decreasing. Therefore, $\mathcal{P}$ is not well-founded. 
     
-    Further, consider the two strings $a,b \in ENG_L$. There is no string $s$ such that $a \prec s \prec b$. Therefore, $\mathcal{P}$ is not dense. \qed
+    Further, consider the two strings $a$ and $aa \in ENG_L$. There is no string $s$ such that $a \prec s \prec aa$. Therefore, $\mathcal{P}$ is not dense. \qed
      
   \end{solution}
 
